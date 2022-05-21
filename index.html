@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="left place-items-center gap">
+          <ion-icon class="btn" name="menu-outline"></ion-icon>
+          <div class="youtube-logo btn">
+            <img src="./images/youtube-icon.png" alt="" />
+          </div>
+        </div>
+        <!-- middle area -->
+        <div class="middle place-items-center">
+          <form class="search-component place-items-center">
+            <input class="text-bar" type="text" placeholder="Search" />
+            <button class="search-btn place-items-center btn">
+              <ion-icon name="search-outline"></ion-icon>
+            </button>
+          </form>
+          <div class="mic-btn place-items-center">
+            <ion-icon name="mic-outline"></ion-icon>
+          </div>
+        </div>
+        <!-- right area -->
+        <div class="right place-items-center gap">
+          <ion-icon class="btn" name="videocam-outline"></ion-icon>
+          <ion-icon class="btn" name="apps-outline"></ion-icon>
+          <ion-icon class="btn" name="notifications-outline"></ion-icon>
+          <div class="avatar-img btn">
+            <img src="/images/img_avatar.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main-section d-flex gap">
+        <section class="video-section">
+          <div class="video-component">
+            <iframe
+              class="margin-btm"
+              width="880"
+              height="495"
+              src="https://www.youtube.com/embed/bWPMSSsVdPk"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <h2 class="main-video-title margin-btm font-weight_none">Learn HTML in 12 Minutes</h2>
+            <div class="video-details border-btm_colorGray margin-btm">
+              <span class="video-views">5,119 views &#8226; May 9, 2022</span>
+              <div class="interaction-section d-flex gap margin-btm">
+                <span class="btn"><ion-icon name="thumbs-up-outline"></ion-icon>553</span>
+                <span class="btn"><ion-icon name="thumbs-down-outline"></ion-icon>DISLIKE</span>
+                <span class="btn"><ion-icon name="arrow-redo-outline"></ion-icon>SHARE</span>
+                <span class="btn"><ion-icon name="cut-outline"></ion-icon>CLIP</span>
+                <span class="btn"><ion-icon name="filter-outline"></ion-icon>SAVE</span>
+                <span class="btn"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></span>
+              </div>
+            </div>
+            <div class="user_account d-flex border-btm_colorGray margin-btm padding-btm">
+              <div class="account_details d-flex gap">
+                <img src="./images/img_woman.jpg" alt="" />
+                <div class="details">
+                  <p class="details-name-channel">Kim Samuel</p>
+                  <p style="color: #a9a887">1.46M subscribers</p>
+                  <p>SHOW MORE</p>
+                </div>
+              </div>
+              <button>SUBSCRIBER</button>
+            </div>
+          </div>
+        </section>
+        <section class="thumbnail-section d-flex gap">
+          <div class="thumbnail d-flex gap">
+            <img src="./images/Thumbnails/1.jpg" alt="" />
+            <div>
+              <h2 class="thumbnail-video-title">How to edit your video</h2>
+              <h4 class="thumbnail-channel_name">TOm</h4>
+              <h4 class="thumbnail-video_info">3M &#8226; 1 year ago</h4>
+            </div>
+          </div>
+          <div class="thumbnail d-flex gap">
+            <img src="./images/Thumbnails/2.jpg" alt="" />
+            <div class="thumbnail-text d-flex">
+              <h2 class="thumbnail-video-title">Start a YouTube Channel</h2>
+              <h4 class="thumbnail-channel_name">btass</h4>
+              <h4 class="thumbnail-video_info">3M &#8226; 1 year ago</h4>
+            </div>
+          </div>
+          <div class="thumbnail d-flex gap">
+            <img src="./images/Thumbnails/3.jpg" alt="" />
+            <div class="thumbnail-text d-flex">
+              <h2 class="thumbnail-video-title">Sound in black</h2>
+              <h4 class="thumbnail-channel_name">zertskVEVO</h4>
+              <h4 class="thumbnail-video_info">3M &#8226; 1 year ago</h4>
+            </div>
+          </div>
+          <div class="thumbnail d-flex gap">
+            <img src="./images/Thumbnails/4.jpg" alt="" />
+            <div class="thumbnail-text d-flex">
+              <h2 class="thumbnail-video-title">Film on mobile</h2>
+              <h4 class="thumbnail-channel_name">saraDIY</h4>
+              <h4 class="thumbnail-video_info">3M &#8226; 1 year ago</h4>
+            </div>
+          </div>
+          <div class="thumbnail d-flex gap">
+            <img src="./images/Thumbnails/5.jpg" alt="" />
+            <div class="thumbnail-text d-flex">
+              <h2 class="thumbnail-video-title">Convert files</h2>
+              <h4 class="thumbnail-channel_name">DIYhacks</h4>
+              <h4 class="thumbnail-video_info">3M &#8226; 1 year ago</h4>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- Ionicons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
+
+<!-- <i class="material-icons">sort</i> -->

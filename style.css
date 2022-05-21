@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Poppins:ital,wght@0,100;0,400;0,600;0,700;1,200&display=swap');
+
+/* :root {
+} */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Reusable classes */
+.container {
+  max-width: 160rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.place-items-center {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.screen-sm-hidden {
+  display: none;
+}
+
+.screen-lg-hidden {
+  display: none;
+}
+
+.margin-top-bottom {
+  margin-block: 1.5rem;
+}
+
+.margin-btm {
+  margin-bottom: 1rem;
+}
+
+.padding-btm {
+  padding-bottom: 1rem;
+}
+
+.gap {
+  gap: 2rem;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.border-btm_colorGray {
+  border-bottom: 2px solid #2e2e2e;
+}
+
+.font-weight_none {
+  font-weight: normal;
+}
+
+/* ******************************************************** */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: #1e1e1e;
+  color: white;
+}
+ion-icon {
+  font-size: 2.75rem;
+  color: white;
+}
+
+/*  */
+header {
+  position: fixed;
+  width: 100%;
+}
+
+.header-container {
+  padding-inline: 3rem;
+  background-color: #252525;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5.5rem;
+}
+
+.youtube-logo {
+  width: 10rem;
+}
+
+.avatar-img {
+  width: 3.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.middle {
+  width: 42%;
+}
+
+.search-component {
+  border: none;
+  width: 85%;
+  margin-right: 15px;
+}
+
+.text-bar {
+  border: none;
+  background-color: #191919;
+  color: white;
+  font-size: 1.5rem;
+  padding: 7px;
+  width: 100%;
+  height: 100%;
+}
+
+.search-btn {
+  border: none;
+  padding: 5px;
+  width: 70px;
+  background-color: #343434;
+}
+
+.mic-btn {
+  width: 45px;
+  aspect-ratio: 1;
+  background-color: #1e1e1e;
+  border-radius: 50%;
+}
+
+/* main */
+
+.main-section {
+  padding: 10rem 10rem;
+}
+
+.main-video-title {
+  font-size: 1.7rem;
+}
+
+.video-views {
+  color: #97a29f;
+  font-size: 1.2rem;
+}
+
+.video-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.interaction-section span {
+  font-size: 1.5rem;
+}
+
+.interaction-section ion-icon {
+  font-size: 2rem;
+}
+/* User Account  */
+
+.user_account {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account_details img {
+  width: 5.5rem;
+  /* height: 5.5rem; */
+  aspect-ratio: 1;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.details-name-channel {
+  font-size: 1.5rem;
+}
+
+.user_account button {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 8px 13px;
+  color: white;
+  background-color: red;
+  border: none;
+}
+
+.thumbnail-section {
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.thumbnail-text {
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.thumbnail img {
+  width: 20rem;
+}
+
+.thumbnail-video-title {
+  font-weight: normal;
+}
+
+.thumbnail-video_info {
+  font-weight: normal;
+}
+
+.thumbnail-channel_name {
+  font-weight: normal;
+}
